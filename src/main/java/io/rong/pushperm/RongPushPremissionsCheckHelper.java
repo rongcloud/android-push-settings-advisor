@@ -17,7 +17,7 @@ import io.rong.pushperm.perm.PermissionStatus;
 import io.rong.pushperm.perm.PermissionType;
 
 /**
- * 此类主要是用于配合融云 Push 。由于现在各种机型厂商和安卓的限制，为了 Push 可以正常的接受
+ * 由于现在各种机型厂商和安卓的限制，为了 Push 可以正常的接受
  * 消息或应用尽量长期在后台，所以要开启手机的某系权限。此模块就是针对此问题进行了机型适配。
  *
  * 主要有几个功能模块。1. 检查权限状态。 具体的 Push 所需权限类型可查看 {@link PermissionType}.
